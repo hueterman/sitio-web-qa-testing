@@ -318,7 +318,7 @@ textarea {
 /* ========== FOOTER ========== */ 
 
 footer { 
-    background-color: var(--color-text); 
+    background-color: var(--color-text-light); 
     color: white; 
     text-align: center; 
     padding: var(--spacing-xl) var(--spacing-md); 
