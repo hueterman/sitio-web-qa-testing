@@ -411,3 +411,26 @@ text-align: center;
 margin-top: var(--spacing-sm);
 font-style: italic;
 }
+
+/* ========== DARK MODE (CON BUG) ========== */
+
+/* Variables para modo oscuro */
+:root {
+    --color-dark-bg: #1f2937;
+    --color-dark-text: #f3f4f6;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--color-dark-bg);
+        color: var(--color-dark-text);
+    }
+
+    nav a {
+        color: var(--color-dark-text);
+        /* ⚠️ BUG AQUÍ:
+           El borde al hacer focus sigue siendo del color original (oscuro).
+           Resultado: Borde oscuro sobre fondo oscuro = INVISIBLE.
+        */
+    }
+}
