@@ -279,6 +279,7 @@ textarea {
     border-radius: 4px; 
     font-size: var(--font-size-base); 
     font-weight: 700; 
+    min-height: 48px;
     cursor: pointer; 
     transition: all 150ms; 
     display: inline-flex; 
