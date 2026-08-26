@@ -281,7 +281,6 @@ textarea {
     font-weight: 600; 
     cursor: pointer; 
     transition: all 150ms; 
-    min-height: 48px; 
     display: inline-flex; 
     align-items: center; 
     justify-content: center; 
