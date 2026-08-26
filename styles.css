@@ -278,7 +278,7 @@ textarea {
     border: none; 
     border-radius: 4px; 
     font-size: var(--font-size-base); 
-    font-weight: 600; 
+    font-weight: 700; 
     cursor: pointer; 
     transition: all 150ms; 
     display: inline-flex; 
