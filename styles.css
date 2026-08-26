@@ -381,3 +381,33 @@ footer a {
         --color-border: #374151; 
     } 
 } 
+
+/* ========== MEJORAS DE ACCESIBILIDAD (WCAG AA) ========== */
+
+body {
+/* Aumentamos el contraste: gris más oscuro sobre blanco */
+color: #111827;
+}
+
+a {
+/* Azul más oscuro para mejor ratio de contraste */
+color: #1e40af;
+font-weight: 500;
+}
+
+/* FOCO VISIBLE: Crítico para navegación por teclado */
+input:focus,
+textarea:focus,
+button:focus {
+outline: 3px solid #1e40af; /* Borde grueso y visible */
+outline-offset: 3px; /* Separado del elemento */
+}
+
+/* Estilos para los nuevos pies de foto */
+figcaption {
+font-size: var(--font-size-sm);
+color: var(--color-text-light);
+text-align: center;
+margin-top: var(--spacing-sm);
+font-style: italic;
+}
